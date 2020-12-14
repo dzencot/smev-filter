@@ -1,4 +1,3 @@
-import _ from 'lodash';
 import converter from 'xml-js';
 
 const parseOption = { compact: true };
@@ -22,11 +21,11 @@ const parseToJs = (data) => {
 
 const parseToXml = (data) => {
   const header = '<?xml version="1.0" encoding="UTF-8"?>';
-  const result = converter.js2xml(data, {...parseOption, ignoreDeclaration: true });
+  const result = converter.js2xml(data, { ...parseOption, ignoreDeclaration: true });
   result
     .replace(/testresults/g, 'testResults')
     .replace(/requestheader/g, 'requestHeader')
-    .replace(/requestheader/g, 'requestHeader')
+    .replace(/requestheader/g, 'requestHeader');
   return `${header}${result}`;
 };
 
