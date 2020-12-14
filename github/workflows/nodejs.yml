@@ -3,17 +3,16 @@
 name: Node.js CI
 
 on:
-  push:
-    branches: [ main ]
+  - push
 
 jobs:
   build:
 
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     strategy:
       matrix:
-        node-version: [14.x] # Конкретная версия ноды устанавливается в конкретную версию ОС
+        node-version: [14.x]
 
     steps:
       - uses: actions/checkout@v2
@@ -21,7 +20,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - run: make install
+      - run: make setup
       - run: make lint
       - name: Test & publish code coverage
         uses: paambaati/codeclimate-action@v2.6.0
