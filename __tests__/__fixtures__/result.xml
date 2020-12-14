@@ -1,0 +1,2041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="4613" it="0" lt="0" ct="0" ts="1607578782891" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-1" dt="text" by="1638" sby="0" ng="100" na="100">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;aaeb2cd0-59e7-4cba-b93d-41a3ff8c18ef&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:39:46.397Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;33d024a5-b385-4e89-9819-8d1bf44915c3&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;1befe568-3aaa-11eb-aa8b-8f8a6475f592&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T08:39:45.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="5343" it="0" lt="0" ct="0" ts="1607578782981" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-2" dt="text" by="1638" sby="0" ng="99" na="99">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;1738e09b-7ffd-4d0e-8ab7-2b07c8d85092&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:39:46.686Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;33d024a5-b385-4e89-9819-8d1bf44915c3&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;1c4139b9-3aaa-11eb-aa8b-a59f9d979730&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T08:39:46.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="6437" it="0" lt="0" ct="0" ts="1607578783037" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-10" dt="text" by="1640" sby="0" ng="98" na="98">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-packets&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/packets/1.2.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;23f02e9c-7664-495e-ab4b-da19afd33ff3&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:39:47.877Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;9b307841-2951-4775-be9b-8d4deb15ebc3&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;1c8f80ca-3aaa-11eb-aa8b-0d254d46ac71&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T08:39:47.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="7049" it="0" lt="0" ct="0" ts="1607578783056" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-7" dt="text" by="1640" sby="0" ng="97" na="97">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-packets&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/packets/1.2.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;ef8f00d6-9adb-4142-bf83-3125cf438fcd&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:39:47.986Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;ddf3a565-168d-4ab2-8784-919cea49733f&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;1d0bb5ab-3aaa-11eb-aa8b-7fa29fc90e3d&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T08:39:47.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="8190" it="0" lt="0" ct="0" ts="1607578783081" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-9" dt="text" by="1638" sby="0" ng="96" na="96">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;4db219b8-9f13-498d-aef3-af179e530f69&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:39:48.834Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;33d024a5-b385-4e89-9819-8d1bf44915c3&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;1d573d9c-3aaa-11eb-aa8b-e766cae358c4&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T08:39:48.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="8760" it="0" lt="0" ct="0" ts="1607578783113" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-4" dt="text" by="1638" sby="0" ng="95" na="95">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;7e97849c-ea71-47d9-88fb-e77ed8e2ddca&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:39:49.114Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;33d024a5-b385-4e89-9819-8d1bf44915c3&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;1da81cbd-3aaa-11eb-aa8b-23bbdcebf0e1&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T08:39:48.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="9391" it="0" lt="0" ct="0" ts="1607578783114" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-3" dt="text" by="1640" sby="0" ng="94" na="94">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-packets&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/packets/1.2.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;f208c94a-e67c-4065-a4af-513f2e958e83&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:39:49.624Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;538c4121-c9e4-4475-be48-15a588d2bbf6&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;1df0494e-3aaa-11eb-aa8b-79e07d0cd437&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T08:39:49.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="10027" it="0" lt="0" ct="0" ts="1607578783139" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-5" dt="text" by="1638" sby="0" ng="93" na="93">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;70753436-7e5d-4261-a1a8-5e28d7f50c19&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:39:50.441Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;33d024a5-b385-4e89-9819-8d1bf44915c3&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;1e41ebbf-3aaa-11eb-aa8b-4759608fde96&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T08:39:49.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="10644" it="0" lt="0" ct="0" ts="1607578783153" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-6" dt="text" by="1640" sby="0" ng="92" na="92">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-packets&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/packets/1.2.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;16d59cd7-fb5a-4c31-94e2-199c1d106c01&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:39:50.770Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;8651533c-37c5-4d3f-9759-536bc865468b&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;1eb10140-3aaa-11eb-aa8b-1d968508a3ed&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T08:39:50.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="11261" it="0" lt="0" ct="0" ts="1607578783270" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-8" dt="text" by="1638" sby="0" ng="91" na="91">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;257c61fc-cde8-4a56-ac84-ef8d72981838&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:39:51.640Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;33d024a5-b385-4e89-9819-8d1bf44915c3&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;1ef53631-3aaa-11eb-aa8b-41597f8abb03&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T08:39:51.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="11682" it="0" lt="0" ct="0" ts="1607578783471" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-11" dt="text" by="1640" sby="0" ng="90" na="90">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-packets&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/packets/1.2.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;4d07dd28-6680-4d8f-bd53-2817713cadde&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:39:51.897Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;d151cf6c-a301-4623-84dc-8a68a7d2b35e&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;1f4e79c2-3aaa-11eb-aa8b-7f29f160f95a&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T08:39:51.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="12261" it="0" lt="0" ct="0" ts="1607578783521" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-20" dt="text" by="1638" sby="0" ng="89" na="89">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;e87e0a87-91be-4d31-ad38-8e7e1b8d056a&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:39:52.177Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;33d024a5-b385-4e89-9819-8d1bf44915c3&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;1f95bbf3-3aaa-11eb-aa8b-91e4b82af073&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T08:39:51.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="12895" it="0" lt="0" ct="0" ts="1607578783535" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-28" dt="text" by="1640" sby="0" ng="88" na="88">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-packets&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/packets/1.2.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;ec0ec97e-06bd-4c95-ba6b-b35fc93a1aa4&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:39:52.687Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;87d564b9-0e4b-4b9d-9474-723c9d0acdd2&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;1fd9a2c4-3aaa-11eb-aa8b-77070bdb96c4&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T08:39:52.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="13552" it="0" lt="0" ct="0" ts="1607578783553" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-18" dt="text" by="1638" sby="0" ng="87" na="87">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;123b4783-ec68-4540-82e2-af7f7d3d8c58&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:39:53.320Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;33d024a5-b385-4e89-9819-8d1bf44915c3&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;20244055-3aaa-11eb-aa8b-d932376a2e5d&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T08:39:53.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="13920" it="0" lt="0" ct="0" ts="1607578783559" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-17" dt="text" by="1640" sby="0" ng="86" na="86">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-packets&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/packets/1.2.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;e9de91ca-53bb-4ba1-a579-161bde575af9&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:39:53.768Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;78f92106-97c9-4847-8b54-7d325e52c6b6&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;20754686-3aaa-11eb-aa8b-072ed30d8f0d&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T08:39:53.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="14430" it="0" lt="0" ct="0" ts="1607578783573" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-26" dt="text" by="1638" sby="0" ng="85" na="85">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;b10d9b8f-3020-43ac-b0a6-ead2b3ce5d49&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:39:54.417Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;33d024a5-b385-4e89-9819-8d1bf44915c3&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;20c31867-3aaa-11eb-aa8b-5982e13d99c9&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T08:39:53.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="14874" it="0" lt="0" ct="0" ts="1607578783571" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-25" dt="text" by="1640" sby="0" ng="84" na="84">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-packets&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/packets/1.2.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;6a26fe7d-9542-4304-8a1b-fe4901e30725&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:39:54.632Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;cd0fafee-1a77-4c96-a5eb-685a47c034ea&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;210c5668-3aaa-11eb-aa8b-e9556c5f1002&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T08:39:54.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="15432" it="0" lt="0" ct="0" ts="1607578783605" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-15" dt="text" by="1717" sby="0" ng="83" na="83">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;a0d1cc75-47f7-4d49-9f1d-70f33d53771a&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:39:55.534Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;33d024a5-b385-4e89-9819-8d1bf44915c3&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;a7978890-9607-47d7-8d9d-4930e551815b&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:EventsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;2536548&lt;/ns7:id&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:EventsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="15942" it="0" lt="0" ct="0" ts="1607578783615" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-23" dt="text" by="1638" sby="0" ng="82" na="82">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;24dfb903-d60c-4588-8313-d70ff64fd83d&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:39:55.587Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;33d024a5-b385-4e89-9819-8d1bf44915c3&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;2152d549-3aaa-11eb-aa8b-3764a00ca02b&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T08:39:54.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="16409" it="0" lt="0" ct="0" ts="1607578783637" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-16" dt="text" by="1640" sby="0" ng="81" na="81">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-packets&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/packets/1.2.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;0979c21f-f02b-4e73-9552-5f03a6c8de09&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:39:56.107Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;9433dd65-4877-4ab4-8e8c-ab06396dc650&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;21a736da-3aaa-11eb-aa8b-3fe66c99322c&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T08:39:55.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="17517" it="0" lt="0" ct="0" ts="1607578783653" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-14" dt="text" by="1640" sby="0" ng="80" na="80">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-packets&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/packets/1.2.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;376761b5-d0c4-42e1-86bf-0563d9618a3b&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:39:56.487Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;98149877-7ba3-48dd-b5f2-32874617c2d5&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;220ef95b-3aaa-11eb-aa8b-4d4416707016&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T08:39:56.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="17980" it="0" lt="0" ct="0" ts="1607578783672" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-13" dt="text" by="1717" sby="0" ng="79" na="79">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;fa58c89b-c491-403d-a4ca-c0cf9b300d92&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:39:58.115Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;33d024a5-b385-4e89-9819-8d1bf44915c3&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;85b53ab2-b0d0-489c-b9ee-4371b95fd9e5&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:EventsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;2536548&lt;/ns7:id&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:EventsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="63947" it="0" lt="0" ct="0" ts="1607578783693" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-22" dt="text" by="1765" sby="0" ng="78" na="78">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-packets&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/packets/1.2.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;03f95f60-c3af-429c-9436-02bccb594db3&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:40:47.015Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;9b307841-2951-4775-be9b-8d4deb15ebc3&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;b922b9ea-189a-4ea9-a333-3d87dc6c6195&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:PacketsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;31925977&lt;/ns7:id&gt;
+                &lt;ns7:status&gt;2&lt;/ns7:status&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:PacketsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="65863" it="0" lt="0" ct="0" ts="1607578783698" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-12" dt="text" by="1717" sby="0" ng="77" na="77">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;be35c398-bbff-4c6d-a8d8-71787f3851a6&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:40:48.669Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;33d024a5-b385-4e89-9819-8d1bf44915c3&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;987537f6-9dae-4bd0-ba8f-27f5eb59e879&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:EventsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;2536548&lt;/ns7:id&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:EventsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="66757" it="0" lt="0" ct="0" ts="1607578783716" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-21" dt="text" by="1765" sby="0" ng="76" na="76">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-packets&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/packets/1.2.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;744e612d-6d2c-4dbc-9022-cf33e6898edf&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:40:49.325Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;ddf3a565-168d-4ab2-8784-919cea49733f&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;64d36001-32c7-4443-bb5a-33c1a3c17cf2&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:PacketsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;31925977&lt;/ns7:id&gt;
+                &lt;ns7:status&gt;2&lt;/ns7:status&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:PacketsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="68087" it="0" lt="0" ct="0" ts="1607578783730" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-30" dt="text" by="1765" sby="0" ng="75" na="75">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-packets&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/packets/1.2.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;d424f22b-a7ae-423d-ad3f-fa9a66fd7cfa&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:40:50.649Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;538c4121-c9e4-4475-be48-15a588d2bbf6&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;5eac30e8-6128-4f08-b92a-08a9a7142879&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:PacketsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;31925977&lt;/ns7:id&gt;
+                &lt;ns7:status&gt;2&lt;/ns7:status&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:PacketsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="69162" it="0" lt="0" ct="0" ts="1607578783761" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-29" dt="text" by="1717" sby="0" ng="74" na="74">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;93abf61f-0155-4498-a83e-eb6b2cd3e625&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:40:52.114Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;33d024a5-b385-4e89-9819-8d1bf44915c3&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;bb313728-9cfd-4bc0-bc74-d2f2dd7fa264&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:EventsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;2536548&lt;/ns7:id&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:EventsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="70250" it="0" lt="0" ct="0" ts="1607578784040" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-19" dt="text" by="1717" sby="0" ng="73" na="73">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;b79ab2b9-6bcd-4887-8b31-b5150859e479&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:40:53.556Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;33d024a5-b385-4e89-9819-8d1bf44915c3&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;b5e4381b-afb8-4419-bf09-95d4b43de7bc&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:EventsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;2536548&lt;/ns7:id&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:EventsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="71404" it="0" lt="0" ct="0" ts="1607578784053" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-27" dt="text" by="1765" sby="0" ng="72" na="72">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-packets&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/packets/1.2.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;5324bd10-df73-44bd-b8f3-819115447c7e&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:40:54.751Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;8651533c-37c5-4d3f-9759-536bc865468b&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;ca34ce69-fae7-49b8-ad85-17b7cccef57f&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:PacketsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;31925977&lt;/ns7:id&gt;
+                &lt;ns7:status&gt;2&lt;/ns7:status&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:PacketsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="72182" it="0" lt="0" ct="0" ts="1607578784104" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-36" dt="text" by="1717" sby="0" ng="71" na="71">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;75bb319a-5ea8-4b89-aaac-6e9c214aed68&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:40:55.795Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;33d024a5-b385-4e89-9819-8d1bf44915c3&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;f7f430bf-4579-4937-9d24-fa91b753e3d8&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:EventsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;2536548&lt;/ns7:id&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:EventsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="73727" it="0" lt="0" ct="0" ts="1607578784260" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-44" dt="text" by="1717" sby="0" ng="70" na="70">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;b85ea388-15b2-4100-a46e-ec7d3bf403cc&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:40:57.316Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;33d024a5-b385-4e89-9819-8d1bf44915c3&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;795e6f84-92af-4631-9879-1629ab9ae174&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:EventsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;2536548&lt;/ns7:id&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:EventsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="75521" it="0" lt="0" ct="0" ts="1607578784274" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-52" dt="text" by="1765" sby="0" ng="69" na="69">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-packets&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/packets/1.2.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;58aef810-1c7f-4539-ac9c-f7c49736404a&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:40:59.237Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;d151cf6c-a301-4623-84dc-8a68a7d2b35e&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;806c36a0-d06a-4b07-8d1d-37a807f0fb14&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:PacketsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;31925977&lt;/ns7:id&gt;
+                &lt;ns7:status&gt;2&lt;/ns7:status&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:PacketsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="77805" it="0" lt="0" ct="0" ts="1607578784334" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-39" dt="text" by="1765" sby="0" ng="68" na="68">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-packets&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/packets/1.2.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;6aa36484-8ef8-4366-b351-24e98ebc79a5&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:41:01.472Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;87d564b9-0e4b-4b9d-9474-723c9d0acdd2&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;2b186210-4c48-48d3-8068-fdeab3243ae8&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:PacketsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;31925977&lt;/ns7:id&gt;
+                &lt;ns7:status&gt;2&lt;/ns7:status&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:PacketsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="78647" it="0" lt="0" ct="0" ts="1607578784357" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-69" dt="text" by="1717" sby="0" ng="67" na="67">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;dcca2e87-5724-4d93-94a0-d324c363529b&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:41:02.466Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;33d024a5-b385-4e89-9819-8d1bf44915c3&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;78029a09-965b-46c3-b817-7b2d9aed8069&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:EventsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;2536548&lt;/ns7:id&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:EventsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="123589" it="0" lt="0" ct="0" ts="1607578784376" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-47" dt="text" by="1765" sby="0" ng="66" na="66">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-packets&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/packets/1.2.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;8c1ecd5a-c87f-499d-beb3-93ca39f5027a&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:41:47.241Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;78f92106-97c9-4847-8b54-7d325e52c6b6&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;401e7455-218d-4f70-9f4f-7f0bc3dee54e&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:PacketsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;31925977&lt;/ns7:id&gt;
+                &lt;ns7:status&gt;2&lt;/ns7:status&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:PacketsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="124357" it="0" lt="0" ct="0" ts="1607578784390" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-55" dt="text" by="1765" sby="0" ng="65" na="65">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-packets&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/packets/1.2.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;9b22f6af-a061-4910-8fac-57fc4b0903bc&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:41:47.925Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;cd0fafee-1a77-4c96-a5eb-685a47c034ea&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;c5beea2b-2a21-4d11-b6f5-25e06dd3146e&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:PacketsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;31925977&lt;/ns7:id&gt;
+                &lt;ns7:status&gt;2&lt;/ns7:status&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:PacketsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="184266" it="0" lt="0" ct="0" ts="1607578784400" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-63" dt="text" by="1717" sby="0" ng="64" na="64">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;5ce09cb2-c1b0-4461-92fd-380fde3b0d0c&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:42:47.748Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;33d024a5-b385-4e89-9819-8d1bf44915c3&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;4b1efb43-f1dd-4d13-8b0e-e77ba01bd631&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:EventsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;2536548&lt;/ns7:id&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:EventsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="184992" it="0" lt="0" ct="0" ts="1607578784417" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-24" dt="text" by="1717" sby="0" ng="63" na="63">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;3dc8b358-cc84-4372-b0c5-c9e73743765a&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:42:48.712Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;33d024a5-b385-4e89-9819-8d1bf44915c3&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;0b4e46e3-216b-482a-88ba-72f76010ffb2&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:EventsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;2536548&lt;/ns7:id&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:EventsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="186970" it="0" lt="0" ct="0" ts="1607578784435" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-32" dt="text" by="1765" sby="0" ng="62" na="62">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-packets&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/packets/1.2.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;8b8d0381-e562-409f-943f-2445b1bc59ee&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:42:50.051Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;9433dd65-4877-4ab4-8e8c-ab06396dc650&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;342b8c10-6dfd-4d37-82a3-93285190d21c&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:PacketsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;31925977&lt;/ns7:id&gt;
+                &lt;ns7:status&gt;2&lt;/ns7:status&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:PacketsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="188240" it="0" lt="0" ct="0" ts="1607578784458" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-31" dt="text" by="1765" sby="0" ng="61" na="61">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-packets&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/packets/1.2.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;6093045e-07f6-4871-a449-76122d0e59a5&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T05:42:51.966Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;98149877-7ba3-48dd-b5f2-32874617c2d5&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;12ca0525-5720-4bf6-99b5-cc6a044c1a49&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:PacketsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;31925977&lt;/ns7:id&gt;
+                &lt;ns7:status&gt;2&lt;/ns7:status&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:PacketsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="1523633" it="0" lt="0" ct="0" ts="1607578784485" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-34" dt="text" by="1638" sby="0" ng="60" na="60">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;70d4d05f-00f7-4db7-9fe2-2b1ac9ffae69&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T06:05:07.137Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;5656ab95-edb0-4716-a8a2-834e46f6042f&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;a6324eac-3aad-11eb-aa8b-b54470d29b0f&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T09:05:06.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="1524186" it="0" lt="0" ct="0" ts="1607578784493" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-49" dt="text" by="1640" sby="0" ng="59" na="59">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-packets&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/packets/1.2.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;73e30f65-e6f9-43be-b895-f9d3beacef4f&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T06:05:07.413Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;a7894696-8b1a-4c1a-b38a-561d2de20c6f&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;a67dfdad-3aad-11eb-aa8b-0d4de618b3a2&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T09:05:07.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="1548709" it="0" lt="0" ct="0" ts="1607578784520" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-57" dt="text" by="1638" sby="0" ng="58" na="58">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;a1633ca7-1aec-46ee-8738-4a3191687ac1&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T06:05:32.514Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;b0928422-f6cd-476f-921f-f81901b834d0&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;b5b3455e-3aad-11eb-aa8b-45d310da45ae&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T09:05:32.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="1549948" it="0" lt="0" ct="0" ts="1607578784530" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-42" dt="text" by="1640" sby="0" ng="57" na="57">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-packets&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/packets/1.2.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;b97ed8a4-6266-4a18-a9de-8a76e46fd2cf&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T06:05:32.963Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;e23b2d05-cf5a-4480-be28-858d07aaecf3&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;b5f5305f-3aad-11eb-aa8b-edcf114ae119&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T09:05:32.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="1551145" it="0" lt="0" ct="0" ts="1607578784537" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-65" dt="text" by="1717" sby="0" ng="56" na="56">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;70c9f923-2f1f-4512-85ff-64ae6437a941&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T06:05:35.009Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;5656ab95-edb0-4716-a8a2-834e46f6042f&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;263c9bcc-cc99-48e6-861d-c54c4ab47cc3&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:EventsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;2536548&lt;/ns7:id&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:EventsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="1551649" it="0" lt="0" ct="0" ts="1607578784578" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-59" dt="text" by="1765" sby="0" ng="55" na="55">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-packets&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/packets/1.2.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;02ab073e-0631-45c6-84d0-a238c11e6f05&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T06:05:35.073Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;a7894696-8b1a-4c1a-b38a-561d2de20c6f&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;c8b0467a-4575-46cd-bebb-b8b7f909be13&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:PacketsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;31925977&lt;/ns7:id&gt;
+                &lt;ns7:status&gt;2&lt;/ns7:status&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:PacketsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="1630659" it="0" lt="0" ct="0" ts="1607578784592" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-67" dt="text" by="1717" sby="0" ng="54" na="54">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;a585a120-2d0e-4328-8c47-dce9fe3911ee&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T06:06:54.551Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;b0928422-f6cd-476f-921f-f81901b834d0&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;b402e50b-3443-4b23-91f3-a61830767292&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:EventsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;2536548&lt;/ns7:id&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:EventsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="1631895" it="0" lt="0" ct="0" ts="1607578784692" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-38" dt="text" by="1765" sby="0" ng="53" na="53">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-packets&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/packets/1.2.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;a5a92386-409f-4870-9798-7c239dca2a44&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T06:06:55.906Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;e23b2d05-cf5a-4480-be28-858d07aaecf3&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;6cc5fe23-6588-440e-a477-7416eb3cc823&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:PacketsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;31925977&lt;/ns7:id&gt;
+                &lt;ns7:status&gt;2&lt;/ns7:status&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:PacketsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="1649036" it="0" lt="0" ct="0" ts="1607578784732" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-46" dt="text" by="1638" sby="0" ng="52" na="52">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;d166392a-de84-498d-9a14-f5cc7fd94fc1&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T06:07:12.747Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;d4c67941-cd43-497d-97a5-dd2c876ac5d1&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;f142c4c0-3aad-11eb-aa8b-f77674be03ba&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T09:07:12.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="1649989" it="0" lt="0" ct="0" ts="1607578784742" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-54" dt="text" by="1640" sby="0" ng="51" na="51">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-packets&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/packets/1.2.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;1a248222-2df7-4fe0-911b-6a6141bc4901&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T06:07:13.070Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;c324b7fb-df3a-4531-8aa6-d0d7c2fc6aa0&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;f1841381-3aad-11eb-aa8b-7d261a883f78&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T09:07:12.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="1752154" it="0" lt="0" ct="0" ts="1607578784751" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-62" dt="text" by="1717" sby="0" ng="50" na="50">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;70148b88-a623-474a-aea6-ec2b30b6a4fa&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T06:08:56.099Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;d4c67941-cd43-497d-97a5-dd2c876ac5d1&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;644b4270-8d00-4eb6-bbba-8c2866f79a13&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:EventsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;2536548&lt;/ns7:id&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:EventsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="1754454" it="0" lt="0" ct="0" ts="1607578784772" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-71" dt="text" by="1765" sby="0" ng="49" na="49">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-packets&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/packets/1.2.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;a1f8fec3-1f49-4713-994a-a1b1850f485b&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T06:08:57.704Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;c324b7fb-df3a-4531-8aa6-d0d7c2fc6aa0&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;984b220f-2c40-484e-9785-b98ef069683f&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:PacketsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;31925977&lt;/ns7:id&gt;
+                &lt;ns7:status&gt;2&lt;/ns7:status&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:PacketsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="1770844" it="0" lt="0" ct="0" ts="1607578784823" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-87" dt="text" by="1638" sby="0" ng="48" na="48">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;2e952bda-984c-41f2-a921-5a01ab870ac7&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T06:09:14.993Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;1fb73447-66b0-4097-84a6-5d6b1c6a46af&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;3a4da6d2-3aae-11eb-aa8b-df54cad487cc&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T09:09:14.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="1810873" it="0" lt="0" ct="0" ts="1607578784833" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-95" dt="text" by="1717" sby="0" ng="47" na="47">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;cb1e431a-e84d-4e9f-a3ce-201307559305&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T06:09:54.994Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;1fb73447-66b0-4097-84a6-5d6b1c6a46af&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;a8b6d400-b771-418f-8525-e2c8327b9bc8&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:EventsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;2536548&lt;/ns7:id&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:EventsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="1947958" it="0" lt="0" ct="0" ts="1607578784971" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-35" dt="text" by="1638" sby="0" ng="46" na="46">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;c852eb8b-3438-440e-a0c2-7e3fca9a8959&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T06:12:12.233Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;55b9d9bc-2453-4be0-9385-747fcf830af0&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;a3ec60e3-3aae-11eb-aa8b-d3f7404a73c2&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T09:12:11.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="1991621" it="0" lt="0" ct="0" ts="1607578785014" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-43" dt="text" by="1717" sby="0" ng="45" na="45">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;23f739b7-4cf6-45b3-9266-e0e503184a1f&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T06:12:55.787Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;55b9d9bc-2453-4be0-9385-747fcf830af0&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;0dca440c-848e-4369-9caf-8daf4b6e0178&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:EventsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;2536548&lt;/ns7:id&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:EventsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="2548631" it="0" lt="0" ct="0" ts="1607578785025" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-51" dt="text" by="1638" sby="0" ng="44" na="44">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;68ac8272-3b4f-4d9f-b5df-7dd903df7f82&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1003&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;false&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T06:22:12.786Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;e802a748-bbc3-4868-9598-88b9c50110ee&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt; Ð&#x97;Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð¿Ñ&#x80;Ð¸Ð½Ñ&#x8f;Ñ&#x82;  Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; â&#x80;&#x93; Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81; Ð² Ð¾Ð±Ñ&#x80;Ð°Ð±Ð¾Ñ&#x82;ÐºÐµ&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns3:MessageMetadata Id=&quot;SIGNED_BY_SMEV&quot;&gt;
+            &lt;ns3:MessageId&gt;09debf54-3ab0-11eb-aa8b-1d2e46ab31a6&lt;/ns3:MessageId&gt;
+            &lt;ns3:MessageType&gt;REQUEST&lt;/ns3:MessageType&gt;
+            &lt;ns3:Sender&gt;
+                &lt;ns3:Mnemonic&gt;590102&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Sender&gt;
+            &lt;ns3:SendingTimestamp&gt;2020-12-10T09:22:12.000+03:00&lt;/ns3:SendingTimestamp&gt;
+            &lt;ns3:Recipient&gt;
+                &lt;ns3:Mnemonic&gt;emu&lt;/ns3:Mnemonic&gt;
+            &lt;/ns3:Recipient&gt;
+            &lt;ns3:Status&gt;requestIsQueued&lt;/ns3:Status&gt;
+        &lt;/ns3:MessageMetadata&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="2595181" it="0" lt="0" ct="0" ts="1607578785035" s="true" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="200" rm="1 message(s) received successfully of 1 expected" tn="Ответы 2-60" dt="text" by="1717" sby="0" ng="43" na="43">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;ns2:TaskStatus xmlns=&quot;urn://ru.permkrai.ecsp.smev3.adapter/1.0.0&quot; xmlns:ns2=&quot;urn://ru.permkrai.ecsp/mv/exchange/1.0/&quot; xmlns:ns3=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/1.2&quot; xmlns:ns4=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/basic/1.2&quot; xmlns:ns5=&quot;urn://x-artefacts-smev-gov-ru/services/message-exchange/types/faults/1.2&quot; xmlns:ns6=&quot;urn://ru.permkrai.ecsp/mv/mkgu-events&quot; xmlns:ns7=&quot;http://vashkontrol.ru/service/events/1.3.0&quot;&gt;
+    &lt;ns2:TaskStatusInfo&gt;
+        &lt;ns2:StatusId&gt;518f7914-9006-476c-99ec-e37436555a0a&lt;/ns2:StatusId&gt;
+        &lt;ns2:StatusCode&gt;1004&lt;/ns2:StatusCode&gt;
+        &lt;ns2:StatusIsFinal&gt;true&lt;/ns2:StatusIsFinal&gt;
+        &lt;ns2:StatusDate&gt;2020-12-10T06:22:59.595Z&lt;/ns2:StatusDate&gt;
+        &lt;ns2:TaskId&gt;e802a748-bbc3-4868-9598-88b9c50110ee&lt;/ns2:TaskId&gt;
+        &lt;ns2:Note&gt;Ð&#x9f;Ð¾Ð»Ñ&#x83;Ñ&#x87;ÐµÐ½ Ð¾Ñ&#x82;Ð²ÐµÑ&#x82; Ð¸Ð· Ð¤Ð&#x9e;Ð&#x98;Ð&#x92;/Ð&#x9e;Ð&#x98;Ð&#x92; Ð¿Ð¾ Ð·Ð°Ð¿Ñ&#x80;Ð¾Ñ&#x81;Ñ&#x83;&lt;/ns2:Note&gt;
+    &lt;/ns2:TaskStatusInfo&gt;
+    &lt;ns2:Documents&gt;
+        &lt;ns2:Document&gt;
+            &lt;ns2:DocumentCode&gt;000000&lt;/ns2:DocumentCode&gt;
+            &lt;ns2:Files&gt;
+                &lt;ns2:File&gt;
+                    &lt;ns2:StoreId&gt;c099f652-34df-4a01-972f-236e2c27651a&lt;/ns2:StoreId&gt;
+                    &lt;ns2:StoreName&gt;MV_DOCS&lt;/ns2:StoreName&gt;
+                    &lt;ns2:Name&gt;document.pdf&lt;/ns2:Name&gt;
+                    &lt;ns2:MimeType&gt;application/pdf&lt;/ns2:MimeType&gt;
+                &lt;/ns2:File&gt;
+            &lt;/ns2:Files&gt;
+        &lt;/ns2:Document&gt;
+    &lt;/ns2:Documents&gt;
+    &lt;ns2:CustomAttributes&gt;
+        &lt;ns7:EventsResponse&gt;
+            &lt;ns7:packet&gt;
+                &lt;ns7:id&gt;2536548&lt;/ns7:id&gt;
+            &lt;/ns7:packet&gt;
+        &lt;/ns7:EventsResponse&gt;
+    &lt;/ns2:CustomAttributes&gt;
+&lt;/ns2:TaskStatus&gt;
+</responseData>
+</sample>
+<sample t="3032437" it="0" lt="0" ct="0" ts="1607578784523" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-40" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031784" it="0" lt="0" ct="0" ts="1607578785176" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-96" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3032377" it="0" lt="0" ct="0" ts="1607578784584" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-64" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031789" it="0" lt="0" ct="0" ts="1607578785172" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-41" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031916" it="0" lt="0" ct="0" ts="1607578785045" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-68" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3032200" it="0" lt="0" ct="0" ts="1607578784761" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-84" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031819" it="0" lt="0" ct="0" ts="1607578785142" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-99" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3032355" it="0" lt="0" ct="0" ts="1607578784607" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-45" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031767" it="0" lt="0" ct="0" ts="1607578785195" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-58" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3032395" it="0" lt="0" ct="0" ts="1607578784568" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-56" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031834" it="0" lt="0" ct="0" ts="1607578785126" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-33" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031621" it="0" lt="0" ct="0" ts="1607578785339" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-83" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031470" it="0" lt="0" ct="0" ts="1607578785490" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-81" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031406" it="0" lt="0" ct="0" ts="1607578785554" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-98" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031754" it="0" lt="0" ct="0" ts="1607578785206" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-66" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031866" it="0" lt="0" ct="0" ts="1607578785094" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-73" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031842" it="0" lt="0" ct="0" ts="1607578785118" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-82" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3032319" it="0" lt="0" ct="0" ts="1607578784641" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-70" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031785" it="0" lt="0" ct="0" ts="1607578785178" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-97" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031599" it="0" lt="0" ct="0" ts="1607578785361" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-100" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031888" it="0" lt="0" ct="0" ts="1607578785076" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-72" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031519" it="0" lt="0" ct="0" ts="1607578785445" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-74" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3032191" it="0" lt="0" ct="0" ts="1607578784772" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-92" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031696" it="0" lt="0" ct="0" ts="1607578785264" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-86" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031839" it="0" lt="0" ct="0" ts="1607578785124" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-80" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031957" it="0" lt="0" ct="0" ts="1607578785006" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-78" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3032409" it="0" lt="0" ct="0" ts="1607578784553" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-48" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031601" it="0" lt="0" ct="0" ts="1607578785361" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-94" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3032247" it="0" lt="0" ct="0" ts="1607578784714" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-77" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031672" it="0" lt="0" ct="0" ts="1607578785289" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-76" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3032342" it="0" lt="0" ct="0" ts="1607578784618" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-53" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031801" it="0" lt="0" ct="0" ts="1607578785160" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-89" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031709" it="0" lt="0" ct="0" ts="1607578785252" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-79" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3032403" it="0" lt="0" ct="0" ts="1607578784558" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-37" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3032335" it="0" lt="0" ct="0" ts="1607578784628" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-61" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031914" it="0" lt="0" ct="0" ts="1607578785050" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-85" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031809" it="0" lt="0" ct="0" ts="1607578785155" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-88" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031779" it="0" lt="0" ct="0" ts="1607578785185" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-50" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031907" it="0" lt="0" ct="0" ts="1607578785057" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-75" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031461" it="0" lt="0" ct="0" ts="1607578785503" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-90" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031614" it="0" lt="0" ct="0" ts="1607578785350" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-91" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+<sample t="3031802" it="0" lt="0" ct="0" ts="1607578785158" s="false" lb="JMS Subscriber ECSP.MV_RESP_HANDLER.BK" rc="404" rm="0 message(s) received successfully of 1 expected" tn="Ответы 2-93" dt="text" by="0" sby="0" ng="42" na="42">
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String"></responseData>
+</sample>
+
+</testResults>
