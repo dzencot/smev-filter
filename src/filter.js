@@ -1,7 +1,6 @@
 import _ from 'lodash';
 
 const filter = (parsedData, filterParams) => {
-  console.log(filterParams);
   const filteredData = parsedData.filter(({ responseData, _attributes }) => {
     if (!responseData) {
       return false;
@@ -25,7 +24,6 @@ const filter = (parsedData, filterParams) => {
     if (filterParams.time) {
       const optionTime = new Date(filterParams);
       const taskTime = new Date(parseInt(_attributes.ts, 10));
-      console.log(taskTime.getTime());
       return taskTime.getTime() <= optionTime.getTime();
     }
     return true;

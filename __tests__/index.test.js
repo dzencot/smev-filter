@@ -20,6 +20,6 @@ describe('SmevFilter test', () => {
       guild: '33d024a5-b385-4e89-9819-8d1bf44915c3',
       answer: 0,
     };
-    expect(smevFilter(getFixturePath('expected.xml', filter))).toEqual(expectedData);
+    expect(smevFilter(getFixturePath('expected.xml', filter).trim())).toEqual(expectedData.trim());
   });
 });
