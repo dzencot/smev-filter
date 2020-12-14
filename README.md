@@ -1,6 +1,6 @@
 [![Node CI](https://github.com/dzencot/smev-filter/workflows/Node.js%20CI/badge.svg)](https://github.com/dzencot/smev-filter/actions)
-[![Maintainability](https://api.codeclimate.com/v1/badges/dfc50c2d88cd46d069c1/maintainability)](https://codeclimate.com/github/dzencot/smev-filter/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/dfc50c2d88cd46d069c1/test_coverage)](https://codeclimate.com/github/dzencot/smev-filter/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/cff2886d11492212ed50/maintainability)](https://codeclimate.com/github/dzencot/smev-filter/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/cff2886d11492212ed50/test_coverage)](https://codeclimate.com/github/dzencot/smev-filter/test_coverage)
 
 *Утилита для парсинга и фильтрации ответов из очереди smev.
 Отфильтровать можно по времени, по идентификатору taskId, а также неокончательные ответы (StatusIsFinal: false)*
