@@ -2,7 +2,8 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/dfc50c2d88cd46d069c1/maintainability)](https://codeclimate.com/github/dzencot/smev-filter/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/dfc50c2d88cd46d069c1/test_coverage)](https://codeclimate.com/github/dzencot/smev-filter/test_coverage)
 
-*Описание проекта*
+*Утилита для парсинга и фильтрации ответов из очереди smev.
+Отфильтровать можно по времени, по идентификатору taskId, а также не окончательные ответы (StatusIsFinal: false)*
 
 ## Требования
 
